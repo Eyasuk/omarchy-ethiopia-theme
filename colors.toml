@@ -1,0 +1,41 @@
+# Ethiopia — drawn from Gondarine church murals and Ethiopian Orthodox
+# icon painting: parchment, church gold, terracotta and indigo.
+#
+# The ground is a warm near-neutral dark: the umber hue is kept but the brown
+# pigment is pulled back (saturation ~0.34) so it reads warm, not chocolate.
+# The ANSI colours all clear 4.5:1 against it.
+
+mode = "dark"
+
+accent = "#d9a441"
+selection = "#4a3e30"
+muted = "#6b5c48"
+
+background = "#262019"
+dark_background = "#1e1914"
+darker_background = "#17130f"
+lighter_background = "#3b3227"
+
+foreground = "#e7d3b1"
+dark_foreground = "#8a7355"
+light_foreground = "#cdb78f"
+bright_foreground = "#f5e6c8"
+
+hyprland_active_border = "rgba(d9a441ee) rgba(efc05cee) 45deg"
+hyprland_inactive_border = "rgba(6d4a2caa)"
+
+red = "#e06547"
+yellow = "#d9a441"
+orange = "#d17f36"
+green = "#849755"
+cyan = "#649896"
+blue = "#6291bd"
+magenta = "#be7690"
+brown = "#6d4a2c"
+
+bright_red = "#f2795b"
+bright_yellow = "#efc05c"
+bright_green = "#9fb268"
+bright_cyan = "#82b8b1"
+bright_blue = "#84acd2"
+bright_magenta = "#d490a6"
