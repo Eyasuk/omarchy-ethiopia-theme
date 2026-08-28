@@ -2,7 +2,9 @@
 
 All backgrounds are photographs of Ethiopian Orthodox church murals, panel
 paintings and narrative canvases, sourced from Wikimedia Commons and cropped
-to 16:9. Attribution below is required by the licenses.
+to 16:9. Each is cut from the full-resolution original at the largest 16:9
+frame the source allows; nothing is upscaled or re-encoded above the quality
+of its source. Attribution below is required by the licenses.
 
 | File | Work | Photographer / Source | License |
 |------|------|----------------------|---------|
@@ -30,7 +32,19 @@ terracotta, indigo and olive. See `colors.toml`.
 ## Redistribution
 
 The files in `backgrounds/` are cropped derivatives of the originals listed
-above (resized and cropped to 2560x1440; no other alteration).
+above (cropped to 16:9 at full source width; no scaling, no other
+alteration). Each is re-encoded at its source's chroma sampling (4:2:0) and
+at most 8 quality points above the source, so no file spends more bits than
+the original carries information for.
+
+| File | Size |
+|------|------|
+| `1-angelic-ceiling-gondar.jpg` | 4288x2412 |
+| `2-knights-and-martyrs.jpg` | 4738x2664 |
+| `3-saint-george.jpg` | 2560x1440 |
+| `4-holy-trinity.jpg` | 2814x1582 |
+| `5-adwa.jpg` | 3024x1700 |
+| `6-cherub-ceiling.jpg` | 2994x1684 |
 
 - `2-knights-and-martyrs.jpg` and `3-saint-george.jpg` are public domain — use
   them however you like.
