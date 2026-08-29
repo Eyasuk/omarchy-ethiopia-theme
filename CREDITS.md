@@ -4,12 +4,13 @@ All backgrounds are photographs of Ethiopian Orthodox church murals, panel
 paintings and narrative canvases, sourced from Wikimedia Commons and cropped
 to 16:9. Each is cut from the full-resolution original at the largest 16:9
 frame the source allows; nothing is upscaled or re-encoded above the quality
-of its source. Attribution below is required by the licenses.
+of its source. One is downscaled — see Redistribution below. Attribution
+below is required by the licenses.
 
 | File | Work | Photographer / Source | License |
 |------|------|----------------------|---------|
 | `1-angelic-ceiling-gondar.jpg` | Cherub ceiling, Debre Berhan Selassie, Gondar | Rod Waddington | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) |
-| `2-knights-and-martyrs.jpg` | "Knights and Martyrs", church of Abba Antonios | Google Art Project | Public domain |
+| `2-knights-and-martyrs.webp` | "Knights and Martyrs", church of Abba Antonios | Google Art Project | Public domain |
 | `3-saint-george.jpg` | St. George astride his horse, Bet Giorgis, Lalibela | A. Davey | Public domain |
 | `4-holy-trinity.jpg` | The Holy Trinity, church mural | A. Davey | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
 | `5-adwa.jpg` | Detail, "Battle of Adwa" (folk narrative painting) | A. Davey | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
@@ -32,21 +33,23 @@ terracotta, indigo and olive. See `colors.toml`.
 ## Redistribution
 
 The files in `backgrounds/` are cropped derivatives of the originals listed
-above (cropped to 16:9 at full source width; no scaling, no other
-alteration). Each is re-encoded at its source's chroma sampling (4:2:0) and
-at most 8 quality points above the source, so no file spends more bits than
-the original carries information for.
+above (cropped to 16:9 at full source width; no other alteration). The JPEGs
+are re-encoded at their source's chroma sampling (4:2:0) and at most 8 quality
+points above the source, so no file spends more bits than the original carries
+information for. `2-knights-and-martyrs.webp` is the one exception: at
+4738x2664 it cost 5.0 MB, so it is downscaled to 3840 wide and re-encoded as
+webp (q82), which still covers a 4K display at native width.
 
 | File | Size |
 |------|------|
 | `1-angelic-ceiling-gondar.jpg` | 4288x2412 |
-| `2-knights-and-martyrs.jpg` | 4738x2664 |
+| `2-knights-and-martyrs.webp` | 3840x2159 |
 | `3-saint-george.jpg` | 2560x1440 |
 | `4-holy-trinity.jpg` | 2814x1582 |
 | `5-adwa.jpg` | 3024x1700 |
 | `6-cherub-ceiling.jpg` | 2994x1684 |
 
-- `2-knights-and-martyrs.jpg` and `3-saint-george.jpg` are public domain — use
+- `2-knights-and-martyrs.webp` and `3-saint-george.jpg` are public domain — use
   them however you like.
 - `4-holy-trinity.jpg`, `5-adwa.jpg` and `6-cherub-ceiling.jpg` are CC BY 2.0:
   keep the photographer credit with them.

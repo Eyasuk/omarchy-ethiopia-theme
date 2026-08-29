@@ -56,7 +56,8 @@ Icons: `Yaru-wartybrown`.
 ```
 colors.toml          the palette — everything else is generated from it
 icons.theme          Yaru-wartybrown
-backgrounds/         six 16:9 crops of Ethiopian paintings, up to 4738x2664
+backgrounds/         six 16:9 crops of Ethiopian paintings, up to 4288x2412
+preview.png          desktop screenshot for the theme picker
 unlock.png           Plymouth boot/unlock logo, in the theme's gold
 preview-unlock.png   preview for Style > Unlock
 CREDITS.md           per-image attribution and licensing
